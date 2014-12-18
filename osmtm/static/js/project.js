@@ -17,7 +17,7 @@ osmtm.project = (function() {
 
   var states = [
     ['#dfdfdf'],
-    ['gray'],
+    ['mediumorchid'],
     ['orange'],
     ['green']
   ];
@@ -60,7 +60,7 @@ osmtm.project = (function() {
 
       key = L.DomUtil.create('li', null, ul);
       color = L.DomUtil.create('div', 'key-color', key);
-      color.style.border = '2px solid orange';
+      color.style.border = '2px solid red';
       key.innerHTML += 'Cur. worked on ';
 
       lockedCounter = $('<span>');
