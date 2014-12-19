@@ -164,8 +164,11 @@ osmtm.project = (function() {
 
     selectedTaskLayer = L.geoJson(null, {
         style: {
-            weight: 1,
-            opacity: 0
+            weight: 4,
+            opacity: 1,
+            color: "red",
+            dashArray: 9,
+            fill: 0
         }
     }).addTo(lmap);
 
